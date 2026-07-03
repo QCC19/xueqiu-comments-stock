@@ -5,6 +5,27 @@ results/
 logs/
 .DS_Store
 Thumbs.db
+
+# 模型文件
 bert_model*/
 bert_model/
 model.zip
+
+# 不需要上传的文件
+paper.pdf
+dictionary_paper.xlsx
+*.png
+compare_*.py
+snownlp/
+# DeepSeek API脚本（含本地API Key）
+deepseek/sentiment_analysis_deepseek.py
+deepseek/sentiment_byd_deepseek.py
+deepseek/sentiment_300014_deepseek.py
+deepseek/sentiment_002074_deepseek.py
+deepseek/plot_chart_deepseek.py
+# 原始爬虫数据
+data/xueqiu_*_final.csv
+data/xueqiu_*_scraper.py
+data/*_scraper.py
+# DeepSeek原始评分数据
+deepseek/xueqiu_*.csv
