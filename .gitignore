@@ -1,0 +1,10 @@
+# .gitignore
+*.pyc
+__pycache__/
+results/
+logs/
+.DS_Store
+Thumbs.db
+bert_model*/
+bert_model/
+model.zip
